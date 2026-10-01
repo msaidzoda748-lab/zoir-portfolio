@@ -1,0 +1,42 @@
+﻿<!doctype html>
+<html lang="tg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZOIR — Барномасоз: сайт, веб-барнома, Telegram-бот ва барномаи мобилӣ</title>
+    <meta
+      name="description"
+      content="Портфолиои Зоир — барномасоз. Сохтани сайт, веб-барнома, Telegram-бот ва барномаи мобилӣ барои шумо ва бизнеси шумо. Тамос тавассути Instagram ва Telegram."
+    />
+    <meta property="og:title" content="ZOIR — Барномасоз" />
+    <meta
+      property="og:description"
+      content="Сайт, веб-барнома, Telegram-бот ва барномаи мобилӣ — барои шумо ва бизнеси шумо."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#05070f" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('zoir-theme');
+          if (t !== 'light' && t !== 'dark') {
+            t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+          }
+          document.documentElement.dataset.theme = t;
+        } catch (e) {
+          document.documentElement.dataset.theme = 'dark';
+        }
+        try {
+          var l = localStorage.getItem('zoir-lang');
+          if (l === 'ru' || l === 'en') document.documentElement.lang = l;
+        } catch (e) {}
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-CHcZcFfN.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-C9TLJd3S.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
