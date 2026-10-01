@@ -11,7 +11,18 @@ npm run build      # сохтани версияи ниҳоӣ дар папка�
 npm run preview    # дидани версияи ниҳоӣ: http://localhost:4173
 ```
 
-Барои ҷойгир кардан дар интернет мундариҷаи папкаи `dist/` -ро ба ҳар хостинги статикӣ (Netlify, Vercel, GitHub Pages ва ғ.) бор кунед.
+## Нашр дар GitHub Pages
+
+Сайт дар ин суроға кушода мешавад: https://msaidzoda748-lab.github.io/zoir-portfolio/
+
+Пас аз ҳар тағйир:
+
+```bash
+git add -A && git commit -m "Тавсифи тағйир" && git push   # рамзро ба GitHub мефиристад
+npm run deploy                                             # сайтро месозад ва нашр мекунад
+```
+
+`npm run deploy` папкаи `dist/`-ро ба шохаи `gh-pages` мефиристад. Пас аз 1–2 дақиқа тағйирот дар сайт пайдо мешавад.
 
 ## Иваз кардани маълумоти шахсӣ
 
