@@ -14,7 +14,7 @@ export type ServiceIcon = 'web' | 'bot' | 'mobile';
 export const site = {
   brand: 'ZOIR',
   tagline: 'Portfolio / 2026',
-  photo: '/zoir.jpg',
+  photo: `${import.meta.env.BASE_URL}zoir.jpg`,
 
   social: {
     instagram: 'https://instagram.com/__saidov.code',
