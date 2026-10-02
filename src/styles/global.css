@@ -1,4 +1,4 @@
-/* ============ Tokens ============ */
+﻿/* ============ Tokens ============ */
 :root {
   --font: 'Inter Variable', 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
 
@@ -21,7 +21,6 @@
   --bg-2: #0a1024;
   --text: #f2f5ff;
   --text-strong: #ffffff;
-  --text-soft-title: #dfe6ff;
   --text-muted: #a7b1d3;
   --text-soft: #737ea3;
   --eyebrow: #7f9cff;
@@ -47,7 +46,6 @@
   --bg-2: #e3e8f8;
   --text: #0f1530;
   --text-strong: #0a0f26;
-  --text-soft-title: #1c2550;
   --text-muted: #48517a;
   --text-soft: #6a7398;
   --eyebrow: #3d5cf0;
@@ -675,33 +673,6 @@ section:focus {
 
 .hero__content .eyebrow {
   margin-bottom: 20px;
-}
-
-.hero__title {
-  display: flex;
-  flex-direction: column;
-  font-size: clamp(2.2rem, 4.9vw, 4.6rem);
-  font-weight: 700;
-  line-height: 1.04;
-  letter-spacing: -0.035em;
-  margin-bottom: 24px;
-}
-
-.hero__line {
-  color: var(--text-strong);
-  white-space: nowrap;
-}
-
-.hero__line--soft {
-  color: var(--text-soft-title);
-}
-
-.hero__accent {
-  background: var(--accent-gradient);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  padding-right: 0.04em;
 }
 
 .hero__subtitle {

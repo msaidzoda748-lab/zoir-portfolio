@@ -37,9 +37,6 @@ export const en: PartialDict = {
 
   hero: {
     greeting: "Hi, I'm Zoir",
-    titleLine1: 'Your idea.',
-    titleLine2: 'My',
-    titleAccent: 'code.',
     subtitle: 'I build websites, bots and mobile apps for you and your business.',
   },
 

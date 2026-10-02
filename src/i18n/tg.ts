@@ -40,9 +40,6 @@ export const tg = {
 
   hero: {
     greeting: 'Салом, ман Зоир',
-    titleLine1: 'Идеяи шумо.',
-    titleLine2: 'Барномаи',
-    titleAccent: 'ман.',
     subtitle: 'Барои шумо ва бизнесатон сайт, бот ва барномаи мобилӣ месозам.',
     role: 'Full-Stack Developer',
   },

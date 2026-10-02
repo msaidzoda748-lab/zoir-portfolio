@@ -37,9 +37,6 @@ export const ru: PartialDict = {
 
   hero: {
     greeting: 'Привет, я Зоир',
-    titleLine1: 'Ваша идея.',
-    titleLine2: 'Мой',
-    titleAccent: 'код.',
     subtitle: 'Создаю сайты, ботов и мобильные приложения для вас и вашего бизнеса.',
   },
 
